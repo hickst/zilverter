@@ -44,13 +44,22 @@ bit5plus.xsl) which describe the desired output. You can view these XSLT
 files with a text editor and modify them to do other similar tasks.
 
 
-SPECIFICS
----------
+RUNNING
+-------
 
-Download a Java runtime (version 1.4.0 or later should work) available from:
+The complete source code is available on GitHub at:
 
-   https://java.com
+https://github.com/hickst/zilverter
 
+A zipped binary distribution is available at:
+
+https://arizona.app.box.com/v/zilverter
+
+The executable code in the distibution was compiled under Java version 1.8
+and therefore Java 1.8 is required to run it. The source code should compile
+under any version of Java greater than 1.4.0.
+
+Download a Java runtime (version 1.8.0 or later) from https://java.com
 and follow the instructions to install it.
 
 Unzip the zilverter.zip distribution into your working area.
