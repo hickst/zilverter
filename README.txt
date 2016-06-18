@@ -34,14 +34,14 @@ that runs Zilverter under Unix. (The Unix version may be easier to
 use than the Windows version, since Zilverter was developed on Linux).
 
 Zilverter will take your .zil file and create a 'marked up' version. This
-is the XML file (which will have whatever name you specified). You can view
+is the XML file (which will have whatever name you specify). You can view
 the XML file in a text editor or a recent version of Internet
 Explorer. What you will see is a set of nested tags that identify each
 piece of data from the .zil file. Once the data has been labelled in this
-way, you can extract part of it and format it in many different ways with an
-XSLT program. A sample XSLT file is provided (bit5plus.xsl) that describes the
-desired output. You can view this XSLT file with a text editor and modify
-it to do other similar tasks.
+way, you can extract part of it and format it in many different ways with
+an XSLT program. Two sample XSLT files are provided (simple.xsl and
+bit5plus.xsl) which describe the desired output. You can view these XSLT
+files with a text editor and modify them to do other similar tasks.
 
 
 SPECIFICS
@@ -59,10 +59,11 @@ Unzip the zilverter.zip distribution into your working area.
 SAMPLES
 -------
 
-To convert a sample .zil file and run a sample transformation, open a
-shell command prompt and type:
+To convert a sample .zil file and run a sample transformation on Linux or
+Mac, open a shell command prompt call the zilverter shell script
+(on Windows, use the equivalent .bat file):
 
-   >zilverter bit5plus.xsl a.zil a.xml a.csv
+   > zilverter.sh samples/bit5plus.xsl samples/a.zil a.xml a.csv
 
 This command runs the zilverter.bat script (which is viewable with a text
 editor). The script reads the 'a.zil' sample data file and creates the
@@ -72,7 +73,7 @@ be imported into an Excel spreadsheet). The creation of the CSV file is an
 example of transforming XML using XSLT and is particular to a specific
 experiment that we run at the University of Arizona.
 
-'bit5plus.xsl' is the sample XSLT file included in the distribution. It
+'bit5plus.xsl' is a sample XSLT file included in the distribution. It
 extracts and formats some of the data from the XML file based on XSL
 patterns. XSLT is a large and powerful language which can perform many
 kinds of extraction and formatting tasks. We can not provide instructions
@@ -80,12 +81,13 @@ on how to write XSLT programs here, instead we refer you to the many
 tutorials and articles available on the Internet, or one of the many
 excellent books on the subject.
 
-The 'xform' script runs only the code necessary to apply an XSLT program
-to a existing XML file. For example, given an existing XML file 'a.xml'
-and the sample XSLT file 'bit5plus.xsl', you can run the XSL against the
-XML (to create a transformed output file) by executing the command:
+The 'xform' script runs only the code necessary to apply an XSLT program to
+a existing XML file. For example, given an existing XML file 'a.xml' and
+the sample XSLT file 'bit5plus.xsl', you can run the XSL against the XML
+(to create a transformed output file) by executing the xform shell script
+(on Windows, use the equivalent .bat file):
 
-   >xform bit5plus.xsl a.xml transformed.txt
+   > xform.sh samples/bit5plus.xsl a.xml transformed.txt
 
 With a little XSLT knowledge you can create your own XSLT files using the
 'bit5plus.xsl' file as a template. With XSL you can search for, extract,
