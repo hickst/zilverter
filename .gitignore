@@ -1,7 +1,7 @@
-.class
+*.class
 CVS
-.gradle
-.settings
-.svn
-.xml
+*.gradle
+*.settings
+*.svn
+*.xml
 zilverter.zip
