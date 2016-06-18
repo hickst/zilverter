@@ -1,0 +1,43 @@
+/*
+ * Copyright (C) 2003 Tohono Consulting, LLC. All rights reserved.
+ * 
+ * This work (including software, documents, or other related
+ * items) is being provided by the copyright holders under the
+ * following license. By obtaining, using, and/or copying this work,
+ * you (the licensee) agree that you have read, understood, and will
+ * comply with the following terms and conditions:
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ * 
+ * 1. Redistributions of this work, in either source code or binary form,
+ * must retain the above copyright notice, this list of conditions and
+ * the following disclaimers in a location viewable to users of the
+ * redistributed or derivative work.
+ * 
+ * 2. The end-user documentation included with the redistribution, if any, must
+ * include the following acknowledgment: "This product includes software
+ * developed by Tohono Consulting, LLC."
+ * Alternately, this acknowledgment may appear in the software itself, if
+ * and wherever such third-party acknowledgments normally appear.
+ * 
+ * 3. The name "Zilverter" must not be used to endorse or promote products
+ * derived from this software without prior written permission.
+ * For written permission, please contact: license@tohono.org.
+ * 
+ * 4. Products derived from this software may not be called "Zilverter", nor
+ * may "Zilverter" appear in their name, without prior written permission of
+ * Tohono Consulting, LLC.
+ * 
+ * THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+ * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ * TOHONO CONSULTING, LLC OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLU-
+ * DING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * 
+ */
