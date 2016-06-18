@@ -25,13 +25,13 @@ use the vast array of open-source and commercial XML tools to manipulate
 your data.
 
 To do the conversion, Zilverter depends on several JAR files (which are in
-the distribution) and a recent version of Java (1.4.0 or later). Sun does
-not permit the re-distribution of Java, so you have to download it from
-their site, if it is not already installed on your machine. The
+the distribution) and should work with any version of Java 1.4.0 or later.
+Oracle does not permit the re-distribution of Java, so you have to download
+it from their site, if it is not already installed on your machine. The
 instructions below tell you how to install on Windows 2000 or XP (the
 process is very similar for other systems and there is even a shell script
-that runs Zilverter under Unix. (The Unix version may actually be easier
-to use than the Windows version, since Zilverter was developed on Linux).
+that runs Zilverter under Unix. (The Unix version may be easier to
+use than the Windows version, since Zilverter was developed on Linux).
 
 Zilverter will take your .zil file and create a 'marked up' version. This
 is the XML file (which will have whatever name you specified). You can view
@@ -47,18 +47,11 @@ it to do other similar tasks.
 SPECIFICS
 ---------
 
-Download J2SEv1.4.1 (version 1.4.0 or later should work) available from:
+Download a Java runtime (version 1.4.0 or later should work) available from:
 
-   http://java.sun.com:
+   https://java.com
 
-For windows, click the downloaded .exe file to install Java.
-
-On Win2k, click control panel->System->Advanced->Environment Variables.
-
-You'll see an environment variable named 'PATH'. Add the path to the newly
-installed Java bin directory to the front of PATH.  For example, you might
-add 'C:\Java\j2re1.4.1_03\bin;' to the front of the existing value of the
-PATH environment variable.
+and follow the instructions to install it.
 
 Unzip the zilverter.zip distribution into your working area.
 
