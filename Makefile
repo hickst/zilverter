@@ -38,7 +38,7 @@ testd:
 	@java -cp $(CP) ZilVerter $(SAMPLES)/A1293.zil
 
 distrib: build
-	zip $(ARCHIVE) ZilVerter.class $(JARS) $(DOCS) $(SCRIPTS) $(SAMPLES)
+	zip $(ARCHIVE) ZilVerter.class $(JARS) $(DOCS) $(SCRIPTS) $(SAMPLES)/*
 
 
 distclean: clean runclean
