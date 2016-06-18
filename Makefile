@@ -1,7 +1,7 @@
 ARCHIVE=zilverter.zip
 DOCS = README.txt LICENSE LICENSE.xerces LICENSE.jdom
 JARS = jdom.jar xalan.jar xercesImpl.jar xmlParserAPIs.jar
-SAMPLES = a.zil bit5plus.xsl
+SAMPLES = samples
 SCRIPTS = zilverter.sh zilverter.bat xform.sh xform.bat
 CP=.:jdom.jar
 
@@ -26,16 +26,16 @@ build:
 	javac -d . -classpath $(CP) ZilVerter.java
 
 testa:
-	@java -cp $(CP) ZilVerter catprod3_a_herc.zil
+	@java -cp $(CP) ZilVerter $(SAMPLES)/catprod3_a_herc.zil
 
 testb:
-	@java -cp $(CP) ZilVerter catprod3_b_herc.zil
+	@java -cp $(CP) ZilVerter $(SAMPLES)/catprod3_b_herc.zil
 
 testc:
-	@java -cp $(CP) ZilVerter A0025.zil
+	@java -cp $(CP) ZilVerter $(SAMPLES)/A0025.zil
 
 testd:
-	@java -cp $(CP) ZilVerter A1293.zil
+	@java -cp $(CP) ZilVerter $(SAMPLES)/A1293.zil
 
 distrib: build
 	zip $(ARCHIVE) ZilVerter.class $(JARS) $(DOCS) $(SCRIPTS) $(SAMPLES)
